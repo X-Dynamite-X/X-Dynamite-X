@@ -1,41 +1,149 @@
-<h1 align="center">Hi 👋, I'm Dynamite</h1>
-<h3 align="center">Backend Developer • Laravel • Python • Linux Tools</h3>
+<!-- ============================  HEADER  ============================ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Dynamite&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Laravel%20%E2%80%A2%20Django%20%E2%80%A2%20Nuxt&descAlignY=58&descSize=18" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&center=true&vCenter=true&width=500&lines=Laravel+Developer;Python+%26+Automation;Building+Linux+Dev+Tools" />
+  <a href="https://github.com/X-Dynamite-X">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Laravel+%7C+Django+%7C+Nuxt+%7C+Vue;Building+Developer+Tools+for+Linux;Clean+Code+%E2%80%A2+Fast+APIs+%E2%80%A2+Great+UX" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=X-Dynamite-X&label=Profile%20views&color=0ea5e9&style=flat-square" />
+  <img src="https://img.shields.io/github/followers/X-Dynamite-X?label=Followers&style=flat-square&color=0ea5e9" />
 </p>
 
 ---
 
-### 🧑‍💻 About Me
-- 🔭 Currently building **Laravel Dev Tool**, a local Laravel development environment manager
-- 🌱 Learning: DevOps, Docker, CI/CD
-- 💬 Ask me about: Laravel, PHP, Python, Linux
-- 📫 Reach me: your@email.com
+## 🧑‍💻 About Me
 
-### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,js,mysql,redis,docker,linux,bash,git,nginx,vue&perline=12" />
+I'm a **Full-Stack Web Developer** who loves building fast backends, clean APIs and tools that make developers' lives easier.
+
+- 🚀 Building **[Laravel Dev](https://github.com/X-Dynamite-X/laravel-dev-tool)** — a Laravel Herd–style local dev environment for Linux
+- 🛒 Built **ShopJo** — a full e-commerce platform (Laravel API + Nuxt storefront)
+- 🏢 Built **Sadd** — a production web platform powered by Django
+- 🐧 Daily driver: **Linux** · Bash · Nginx · Docker
+- 🌍 Languages: Arabic (native) · English
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,django,nodejs&perline=10" />
 </p>
 
-### 🚀 Featured Projects
-| Project | Description |
-|---|---|
-| [laravel-dev-tool](https://github.com/X-Dynamite-X/laravel-dev-tool) | Manage Laravel sites, PHP versions, DBs & services on Linux |
-| [project-2](https://github.com/X-Dynamite-X/project-2) | Short description |
-| [project-3](https://github.com/X-Dynamite-X/project-3) | Short description |
+**Frontend**
 
-### 📊 GitHub Stats
+<p>
+  <img src="https://skillicons.dev/icons?i=vue,nuxtjs,nextjs,js,ts,tailwind,html,css&perline=10" />
+</p>
+
+**Databases, DevOps & Tools**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis,sqlite,docker,nginx,linux,bash,cloudflare,git,github,vscode&perline=12" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🧰 [Laravel Dev](https://github.com/X-Dynamite-X/laravel-dev-tool) — Local Dev Environment for Linux
+
+> A desktop app in the spirit of **Laravel Herd**, built for Linux (with portable mode on macOS & Windows).
+
+- Every project gets its own `.test` domain via **Nginx + PHP-FPM**, with local **HTTPS** (`mkcert`)
+- Runs **Laravel, Next.js, Nuxt, Vite, Node & Django** projects side by side
+- **Live SQL profiler** & request inspector (headers, payload, timing, `EXPLAIN` plans)
+- Navicat-style **database manager** (MySQL / MariaDB / PostgreSQL / SQLite)
+- Queue workers (Supervisor / Horizon), scheduler, Reverb, Mailpit, Redis, Meilisearch, MinIO
+- **Remote servers over SSH**: health, services, deploys, file manager, backups
+- **MCP server** for AI agents (Cursor, Claude Desktop…) + AI auto-healer via Ollama
+- Command palette (`Ctrl+K`), encrypted vault, and full **Arabic RTL** interface
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP--FPM-777BB4?style=flat-square&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/pywebview-desktop-0ea5e9?style=flat-square" />
+  <img src="https://img.shields.io/badge/version-2.5.0-blue?style=flat-square" />
+</p>
+
+---
+
+### 🛒 ShopJo — E-Commerce Platform
+
+> A modern online store with a decoupled architecture: a **Laravel REST API** backend and a **Nuxt** storefront.
+
+- Product catalog, categories, search & filters
+- Cart, checkout and order management
+- Admin dashboard for products, orders and customers
+- Authentication & role-based access
+- Frontend deployed on the edge with **Cloudflare Workers**
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+</p>
+
+<!-- 🔗 Add links when available:
+[Live Demo](https://shopjo.abdmoklss.workers.dev) · [Backend Repo](https://github.com/X-Dynamite-X/ShopJo-back-end) -->
+
+---
+
+### 🏢 Sadd — Django Web Platform
+
+> A production web platform built with **Django** for **Roayat Al-Mostaqbal**.
+
+- Robust Django backend with a clean, maintainable architecture
+- Admin panel & role-based permissions
+- RESTful APIs and responsive Arabic/RTL interface
+- Deployed and running in production
+
+<p>
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/status-production-success?style=flat-square" />
+</p>
+
+<!-- 🔗 [Live Website](https://sadd.roayatalmostaqbal.net) -->
+
+---
+
+## 📊 GitHub Stats
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=X-Dynamite-X&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-Dynamite-X&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=X-Dynamite-X&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-Dynamite-X&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=X-Dynamite-X&theme=tokyonight&hide_border=true" />
 </p>
 
-### 🤝 Connect
-<p align="left">
-  <a href="https://linkedin.com/in/your-link"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=X-Dynamite-X&theme=tokyo-night&hide_border=true&area=true" width="95%" />
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
   <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/your-link"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/X-Dynamite-X"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" />
 </p>
